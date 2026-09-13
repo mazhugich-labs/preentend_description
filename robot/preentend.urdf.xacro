@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="robotic_system">
+    <xacro:include filename="$(find preentend_description)/urdf/robot_arm_urdf_macro.xacro" />
+
+    <xacro:robot_arm prefix="robot1" />
+    <xacro:robot_arm prefix="robot2" />
+
+    <link name="world" />
+
+    <joint name="world_to_robot1" type="fixed">
+        <parent link="world" />
+        <child link="robot1_linear_axis_track_link" />
+        <origin xyz="0 -1.75 0" rpy="${-0.5*pi} 0 ${0.5*pi}" />
+    </joint>
+    <joint name="world_to_robot2" type="fixed">
+        <parent link="world" />
+        <child link="robot2_linear_axis_track_link" />
+        <origin xyz="0 1.75 0" rpy="${-0.5*pi} 0 ${0.5*pi}" />
+    </joint>
+</robot>

@@ -41,7 +41,7 @@
                 </material>
             </visual>
             <collision>
-                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <origin xyz="0.106514 -0.115615 -0.239552" rpy="0 -0 0" />
                 <geometry>
                     <mesh filename="package://preentend_description/meshes/linear_axis_carrier_link.stl" scale="1 1 1" />
                 </geometry>
@@ -64,7 +64,7 @@
                 </material>
             </visual>
             <collision>
-                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <origin xyz="0 0 0" rpy="0 -0 0" />
                 <geometry>
                     <mesh filename="package://preentend_description/meshes/base_link.stl" scale="1 1 1" />
                 </geometry>
@@ -87,7 +87,7 @@
                 </material>
             </visual>
             <collision>
-                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <origin xyz="-0.0589974 0.0447591 0.00389295" rpy="0 -0 0" />
                 <geometry>
                     <mesh filename="package://preentend_description/meshes/link1.stl" scale="1 1 1" />
                 </geometry>
@@ -110,7 +110,7 @@
                 </material>
             </visual>
             <collision>
-                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <origin xyz="-0.149564 0.0561702 0.00945553" rpy="0 -0 0" />
                 <geometry>
                     <mesh filename="package://preentend_description/meshes/link2.stl" scale="1 1 1" />
                 </geometry>
@@ -133,7 +133,7 @@
                 </material>
             </visual>
             <collision>
-                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <origin xyz="0.0543897 0.0843386 -0.0037732" rpy="0 -0 0" />
                 <geometry>
                     <mesh filename="package://preentend_description/meshes/link3.stl" scale="1 1 1" />
                 </geometry>
@@ -156,7 +156,7 @@
                 </material>
             </visual>
             <collision>
-                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <origin xyz="9.47542e-05 -1.5431e-05 0.109729" rpy="0 -0 0" />
                 <geometry>
                     <mesh filename="package://preentend_description/meshes/link4.stl" scale="1 1 1" />
                 </geometry>
@@ -179,7 +179,7 @@
                 </material>
             </visual>
             <collision>
-                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <origin xyz="0.043837 -0.100762 -6.06011e-18" rpy="0 -0 0" />
                 <geometry>
                     <mesh filename="package://preentend_description/meshes/link5.stl" scale="1 1 1" />
                 </geometry>
@@ -201,7 +201,7 @@
                 </material>
             </visual>
             <collision>
-                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <origin xyz="2.92246e-17 1.06541e-16 -0.0102682" rpy="0 -0 0" />
                 <geometry>
                     <mesh filename="package://preentend_description/meshes/flange_link.stl" scale="1 1 1" />
                 </geometry>

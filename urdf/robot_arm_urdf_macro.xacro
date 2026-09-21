@@ -17,6 +17,12 @@
                     <color rgba="0.894118 0.894118 0.894118 1" />
                 </material>
             </visual>
+            <collision>
+                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <geometry>
+                    <mesh filename="package://preentend_description/meshes/linear_axis_track_link.stl" scale="1 1 1" />
+                </geometry>
+            </collision>
         </link>
         <link name="${prefix}_linear_axis_carrier_link">
             <inertial>
@@ -34,6 +40,12 @@
                     <color rgba="0.894118 0.894118 0.894118 1" />
                 </material>
             </visual>
+            <collision>
+                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <geometry>
+                    <mesh filename="package://preentend_description/meshes/linear_axis_carrier_link.stl" scale="1 1 1" />
+                </geometry>
+            </collision>
         </link>
         <link name="${prefix}_base_link">
             <inertial>
@@ -51,6 +63,12 @@
                     <color rgba="0.121569 0 0.027451 1" />
                 </material>
             </visual>
+            <collision>
+                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <geometry>
+                    <mesh filename="package://preentend_description/meshes/base_link.stl" scale="1 1 1" />
+                </geometry>
+            </collision>
         </link>
         <link name="${prefix}_link1">
             <inertial>
@@ -68,6 +86,12 @@
                     <color rgba="1 1 0 1" />
                 </material>
             </visual>
+            <collision>
+                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <geometry>
+                    <mesh filename="package://preentend_description/meshes/link1.stl" scale="1 1 1" />
+                </geometry>
+            </collision>
         </link>
         <link name="${prefix}_link2">
             <inertial>
@@ -85,6 +109,12 @@
                     <color rgba="1 1 0 1" />
                 </material>
             </visual>
+            <collision>
+                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <geometry>
+                    <mesh filename="package://preentend_description/meshes/link2.stl" scale="1 1 1" />
+                </geometry>
+            </collision>
         </link>
         <link name="${prefix}_link3">
             <inertial>
@@ -102,6 +132,12 @@
                     <color rgba="1 1 0 1" />
                 </material>
             </visual>
+            <collision>
+                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <geometry>
+                    <mesh filename="package://preentend_description/meshes/link3.stl" scale="1 1 1" />
+                </geometry>
+            </collision>
         </link>
         <link name="${prefix}_link4">
             <inertial>
@@ -119,6 +155,12 @@
                     <color rgba="1 1 0 1" />
                 </material>
             </visual>
+            <collision>
+                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <geometry>
+                    <mesh filename="package://preentend_description/meshes/link4.stl" scale="1 1 1" />
+                </geometry>
+            </collision>
         </link>
         <link name="${prefix}_link5">
             <inertial>
@@ -136,6 +178,12 @@
                     <color rgba="1 1 0 1" />
                 </material>
             </visual>
+            <collision>
+                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <geometry>
+                    <mesh filename="package://preentend_description/meshes/link5.stl" scale="1 1 1" />
+                </geometry>
+            </collision>
         </link>
         <link name="${prefix}_flange_link">
             <inertial>
@@ -152,6 +200,12 @@
                     <color rgba="0.027451 0 0.0156863 1" />
                 </material>
             </visual>
+            <collision>
+                <origin xyz="0.0075 -0.0685027 -0.2" rpy="0 -0 0" />
+                <geometry>
+                    <mesh filename="package://preentend_description/meshes/flange_link.stl" scale="1 1 1" />
+                </geometry>
+            </collision>
         </link>
 
         <joint name="${prefix}_linear_axis_joint" type="prismatic">
